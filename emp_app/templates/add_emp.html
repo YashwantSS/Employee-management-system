@@ -18,10 +18,36 @@
     <input type="text" id="last_name" name = "last_name" value="{{ last_name }}"><br>
     <label for="salary">Salary</label><br>
     <input type="number" id="salary" name="salary" value="{{ salary }}"><br>
+
     <label for="dept">Department</label><br>
-    <input type="number" id="dept" name="dept" value="{{ dept }}"><br>
+
+<select name="dept" id="dept">
+  <option value="1">HR</option>
+  <option value="2">Python Development</option>
+  <option value="3">Java Development</option>
+  <option value="4">.net Development</option>
+  <option value="5">Manual Testing</option>
+  <option value="6">Automation</option>
+</select>
+<br>
+    <!-- <label for="dept">Department</label><br>
+    <input type="number" id="dept" name="dept" value="{{ dept }}"><br> -->
+
     <label for="role">Role</label><br>
-    <input type="number" id="role" name="role" value="{{ role }}"><br>
+
+<select name="role" id="role">
+  <option value="1">Java Developer</option>
+  <option value="2">.net Developer</option>
+  <option value="3">Python Developer</option>
+  <option value="4">Django Devloper</option>
+  <option value="5">Tester</option>
+  <option value="6">Senior HR</option>
+  <option value="7">Junior Developer</option>
+  <option value="8">Project Manager </option>
+</select>
+<br>
+    <!-- <label for="role">Role</label><br>
+    <input type="number" id="role" name="role" value="{{ role }}"><br> -->
     <label for="bonus">Bonus</label><br>
     <input type="number" id="bonus" name="bonus" value="{{ bonus }}"><br>
     <label for="phone">Phone Number</label><br>
